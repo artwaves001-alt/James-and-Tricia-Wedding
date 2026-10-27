@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { background: #FFF9F0; color: #414329; font-family: var(--font-sans), system-ui, sans-serif; }
+:focus-visible { outline: 2px solid #C58F98; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
